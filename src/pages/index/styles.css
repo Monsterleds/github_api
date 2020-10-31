@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body, input {
+  font-family: 'Archivo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button, input {
+  border: 0;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex: 1;
+  background-color: #1B1B1F;
+  background-image: url("./../../assets/githubLogo.png");
+  background-repeat: no-repeat;
+  background-position: center -15%;
+  padding: 64px 0 72px;
+}
+
+header > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+
+header form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+header form > span {
+  color: #DC1637;
+  margin-top: 8px;
+}
+
+header form > div {
+  display: flex;
+  align-items: center;
+  max-width: 720px;
+  width: 100%;
+  margin-top: 36px;
+}
+
+header input {
+  height: 48px;
+  width: 100%;
+  padding: 0 24px;
+  border-radius: 8px 0 0 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+header button {
+  min-height: 48px;
+  min-width: 48px;
+  border-radius: 0 8px 8px 0;
+  background-color: #DC1637;
+  transition: 0.2s;
+}
+
+header button:hover {
+  background-color: rgb(180, 19, 46);
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}

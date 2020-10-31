@@ -1,0 +1,27 @@
+.RepositoriesContainer div {
+  width: 100%;
+  padding: 16px 32px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #F4F5F6;
+  transition: 0.1s;
+}
+
+.RepositoriesContainer div:hover {
+  background-color: rgb(222, 224, 226);
+}
+
+.RepositoriesContainer h3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #47474D;
+}
+
+.RepositoriesContainer span {
+  font-size: 12px;
+  color: #AEAEB3;
+}
+
+.RepositoriesContainer + a {
+  margin-top: 8px;
+}
